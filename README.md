@@ -56,12 +56,36 @@ Create a new team, that is named Help Desk Support II
 
 <h3>4. Allow anyone to create tickets</h3>
 
-Go into the settings and tick the box that enables anonymous users to create tickets.
+Go into the settings and tick the box that only allows users who are registered to create tickets.
+
+It's under Settings > Users
 
 <h3>5. Configure Agent (workers)</h3>
 
-
+These are accounts that are for support agents. However, we will be create 'dummy' accounts with generic info. The main thing is to note down the username and password to use them.
 
 <h3>6. Configure Users (customers)</h3>
+
+Now, we will add some 'dummy' customers. These are people that have issues and submit tickets for the agents above to solve. Create a few dummy accounts.
+
 <h3>7. Configure SLA</h3>
+
+Go to Manage > SLA and create some generic SLA's
+
+Such as SEV-A for high a business critical SLA. Give them some reasonable timeframes. Some common ones are:
+A (1 hour, 24/7)
+B (4 hours, 24/7)
+C (8 hours, business hours)
+
+
 <h3>8. Configure Help Topics</h3>
+
+Create help topics for the common issues. They can be anything but some common ones are:
+
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
+
+Your osTicket is now completely set up!
+
